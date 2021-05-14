@@ -94,7 +94,7 @@ print  """
 jalan('\033[1;96m▬10%')
 jalan("\033[1;96m▬▬20%            \033[1;91mRemember palastine in your prayer")
 jalan('\033[1;96m▬▬▬30%')
-jalan('\033[1;96m▬▬▬▬40%         \033[1;91mUpdated  commands  by  hamayun")
+jalan('\033[1;96m▬▬▬▬40%         \033[1;91mUpdated commands by hamayun")
 jalan("\033[1;96m▬▬▬▬▬50%")
 jalan("\033[1;96m▬▬▬▬▬▬60%      \033[1;91mBangladeshi Country ID Clone")
 jalan('\033[1;96m▬▬▬▬▬▬▬70%')
