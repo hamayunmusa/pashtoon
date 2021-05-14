@@ -51,16 +51,16 @@ logo = """
 \033[1;96m══▒█████████████████████████▀█████████████  \033[1;91mDONT COPY YOUR FATHER 🦇
 \033[1;96m══▒█▄─▄─▀██▀▄─██▄─▀█▄─▄█─▄▄▄▄█▄─▄████▀▄─██  \033[1;92mHamayun UPDATE COMMANDS 🦇
 \033[1;91m══▒██─▄─▀██─▀─███─█▄▀─██─██▄─██─██▀██─▀─██  \033[1;93mWE ARE PAKISTANIS.    🦇
-\033[1;96m══▒▀▄▄▄▄▀▀▄▄▀▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀  \033[1;94mWE ARE BLACK TIGERS.  🦇
+\033[1;96m══▒▀▄▄▄▄▀▀▄▄▀▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀  \033[1;94mWE ARE SUPPORT PALESTIN.  🦇
 
 \033[1;96m══║══▒═💀═▒═💀═▒═══¤═¤═¤═════════════════════║🔥
 \033[1;96m══║✯ 𝕮𝖗𝖊𝖆𝖙𝖔𝖗 ☪ 𝕸𝖗.𝕽𝖆𝖓𝖆 𝕬𝖆𝖍𝖎𝖑 ║🔥
-\033[1;96m══║✯ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊 ☪ Hamayun Creations ║🔥
+\033[1;96m══║✯ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊 ☪  EID MUBARAK  ║🔥
 \033[1;96m══║✯ 𝕴𝖒 𝖓ø𝖙 𝖗𝖊𝖘𝖕𝖔𝖓𝖘𝖎𝖇𝖑𝖊 𝖋𝖔𝖗 𝖆𝖓𝖞 𝖒𝖎𝖘𝖘 𝖚𝖘𝖊 ☪║🔥
 \033[1;96m══║══▒═💀═▒═💀═▒═══¤═¤═¤═════════════════════║🔥"""
 
 jalan("\033[1;96m▬▬▬▬▬ EVERYTHING IS POSSIBLE TO ME ")
-jalan("\033[1;96m▬▬▬▬▬ EVERYTHING IS POSSIBLE TO ME")
+jalan("\033[1;96m▬▬▬▬▬ IF U THINK U R BAD I M DAD OF UR DAD")
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -103,8 +103,8 @@ jalan('\033[1;96m▬▬▬▬▬▬▬▬▬90%')
 jalan('\033[1;96m▬▬▬▬▬▬▬▬▬100%')
 print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96mHAMAYUN.MUSA\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
-CorrectUsername = "HAMAYUN"
-CorrectPassword = "HACKER"
+CorrectUsername = "just"
+CorrectPassword = "enjoy"
 
 loop = 'true'
 while (loop == 'true'):
@@ -116,10 +116,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://www.facebook.com/hamayun.musa.90')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://www.facebook.com/hamayun.musa.90')
 
 def login():
 	os.system('clear')
@@ -309,7 +309,7 @@ def pilih_super():
 	print "\n\033[1;94m        ❈     \x1b[1;31mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print " \033[1;31;40m●💀════════════════════════◄🦇►════════════════════════💀●"
 
-	jalan('             \033[1;31mHAMAYUN Started Cloning  Wait...')
+	jalan('             \033[1;31mTool Started Cloning  Wait...')
 	print  "\033[1;36;40m ●💀════════════════════════◄🦇►════════════════════════💀●" 
 
 	def main(arg):
