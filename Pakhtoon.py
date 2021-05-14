@@ -92,14 +92,14 @@ print  """
 \033[1;94m•◈••◈••◈••◈•\033[1;94m••◈••◈••◈••◈••◈••◈••◈••◈•\033[1;94m•◈••◈••◈••◈•
 \033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96mHAMAYUN MUSA\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
 jalan('\033[1;96m▬10%')
-jalan("\033[1;96m▬▬20%")        \033[1;91mRemember palastine in your prayer\033[1;91m
+jalan("\033[1;96m▬▬20%")        \033[1;91mRemember palastine in your prayer")
 jalan('\033[1;96m▬▬▬30%')
-jalan('\033[1;96m▬▬▬▬40%')     \033[1;91mUpdated  commands  by  hamayun\033[1;91m
+jalan('\033[1;96m▬▬▬▬40%')     \033[1;91mUpdated  commands  by  hamayun")
 jalan("\033[1;96m▬▬▬▬▬50%")
 jalan("\033[1;96m▬▬▬▬▬▬60%    \033[1;91mBangladeshi Country ID Clone")
 jalan('\033[1;96m▬▬▬▬▬▬▬70%')
 jalan('\033[1;96m▬▬▬▬▬▬▬▬80%')
-jalan('\033[1;96m▬▬▬▬▬▬▬▬▬90%')\033[1;91mFacebook~Hamayun.khan.90\033[1;91m
+jalan('\033[1;96m▬▬▬▬▬▬▬▬▬90%')\033[1;91mFacebook~Hamayun.khan.90")
 jalan('\033[1;96m▬▬▬▬▬▬▬▬▬100%')
 print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96mHAMAYUN.MUSA\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
