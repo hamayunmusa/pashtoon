@@ -99,7 +99,7 @@ jalan("\033[1;96m▬▬▬▬▬50%")
 jalan("\033[1;96m▬▬▬▬▬▬60%       \033[1;91mBangladeshi Country ID Clone")
 jalan('\033[1;96m▬▬▬▬▬▬▬70%')
 jalan('\033[1;96m▬▬▬▬▬▬▬▬80%')
-jalan('\033[1;96m▬▬▬▬▬▬▬▬▬90%')  \033[1;91mFacebook~Hamayun.khan.90")
+jalan('\033[1;96m▬▬▬▬▬▬▬▬▬90%    \033[1;91mFacebook~Hamayun.khan.90')
 jalan('\033[1;96m▬▬▬▬▬▬▬▬▬100%')
 print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96mHAMAYUN.MUSA\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
