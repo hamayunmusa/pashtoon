@@ -52,15 +52,15 @@ logo = """
 \033[1;96m══▒█▄─▄─▀██▀▄─██▄─▀█▄─▄█─▄▄▄▄█▄─▄████▀▄─██  \033[1;92mHAMAYUN UPDATED COMMANDS 🦇
 \033[1;91m══▒██─▄─▀██─▀─███─█▄▀─██─██▄─██─██▀██─▀─██  \033[1;93mWE ARE PAKISTANIS.    🦇
 \033[1;96m══▒▀▄▄▄▄▀▀▄▄▀▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀  \033[1;94mSTAY HOME STAY SAFE.  🦇
-                   TUMHE YUHI CHAHENGE JAB TAK HE DAM
+                   
 \033[1;96m══║══▒═💀═▒═💀═▒═══¤═¤═¤═════════════════════║🔥
-\033[1;96m══║✯ Facebook ☪ HAMAYUN MUSA ║🔥
-\033[1;96m══║✯ Wishes ☪   EID MUBARAK  ║🔥
+\033[1;96m══║✯ Fb page ☪Hamayun updated commands║🔥
+\033[1;96m══║✯ Whatsapp ☪03319258250  ║🔥
 \033[1;96m══║✯ 𝕴𝖒 𝖓ø𝖙 𝖗𝖊𝖘𝖕𝖔𝖓𝖘𝖎𝖇𝖑𝖊 𝖋𝖔𝖗 𝖆𝖓𝖞 𝖒𝖎𝖘𝖘 𝖚𝖘𝖊 ☪║🔥
 \033[1;96m══║══▒═💀═▒═💀═▒═══¤═¤═¤═════════════════════║🔥"""
 
 jalan("\033[1;96m▬▬▬▬▬ EVERYTHING IS POSSIBLE TO ME ")
-jalan("\033[1;96m▬▬▬▬▬ IF U THINK U R BAD I M DAD OF UR DAD")
+jalan("\033[1;96m▬▬▬▬▬ TUME YUHI CHAHEGE JB TAK HE DM")
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -92,14 +92,14 @@ print  """
 \033[1;94m•◈••◈••◈••◈•\033[1;94m••◈••◈••◈••◈••◈••◈••◈••◈•\033[1;94m•◈••◈••◈••◈•
 \033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96mHAMAYUN MUSA\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
 jalan('\033[1;96m▬10%')
-jalan("\033[1;96m▬▬20%            \033[1;91mRemember palastine in your prayer")
+jalan("\033[1;96m▬▬20%            \033[1;91mEVERYTHING IS POSSIBLE")
 jalan('\033[1;96m▬▬▬30%')
 jalan('\033[1;96m▬▬▬▬40%         \033[1;91mHamayun updated tool')
 jalan("\033[1;96m▬▬▬▬▬50%")
-jalan("\033[1;96m▬▬▬▬▬▬60%       \033[1;91mBangladeshi Country ID Clone")
+jalan("\033[1;96m▬▬▬▬▬▬60%      \033[1;91mBangladeshi Country ID Clone")
 jalan('\033[1;96m▬▬▬▬▬▬▬70%')
 jalan('\033[1;96m▬▬▬▬▬▬▬▬80%')
-jalan('\033[1;96m▬▬▬▬▬▬▬▬▬90%         \033[1;91mFacebook~Tricker')
+jalan('\033[1;96m▬▬▬▬▬▬▬▬▬90%     \033[1;91mFacebook ~ Tricker')
 jalan('\033[1;96m▬▬▬▬▬▬▬▬▬100%')
 print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96mHAMAYUN.MUSA\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
