@@ -52,7 +52,6 @@ def logo4():
     
     
     def g():
-    os.system('clear')
     logo()
     print '\x1b[1;91mTool Verification'
     print
