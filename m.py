@@ -34,8 +34,7 @@ while loop == 'true':
     if username == CorrectUsername:
         print '\x1b[1;92mActivated '
         time.sleep(5)
-        loop = 'false'
-        
+        loop = 'false'       
 def log_menu():
     try:
         t_check = open('access_token.txt', 'r')
