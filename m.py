@@ -35,7 +35,8 @@ while loop == 'true':
         print '\x1b[1;92mActivated '
         time.sleep(5)
         loop = 'false'       
-def log_menu():
+
+        def log_menu():
     try:
         t_check = open('access_token.txt', 'r')
         menu()
