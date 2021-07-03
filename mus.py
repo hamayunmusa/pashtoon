@@ -60,3 +60,7 @@ def log_menu():
         print '\x1b[1;93m[3] \x1b[1;92mLogin With Cookies'
         print '\x1b[1;96m-----------------------------------------------'
         log_menu_s()
+
+        
+        if __name__ == '__main__':
+    reg()
