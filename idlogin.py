@@ -38,13 +38,6 @@ while loop == 'true':
 
 def login(session, email, password):
     
-    '''
-    Attempt to login to Facebook. Returns user ID, xs token and
-    fb_dtsg token. All 3 are required to make requests to
-    Facebook endpoints as a logged in user. Returns False if
-    login failed.
-    '''
-
     # Navigate to Facebook's homepage to load Facebook's cookies.
     response = session.get('https://m.facebook.com')
     
