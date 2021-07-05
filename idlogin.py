@@ -36,46 +36,71 @@ while loop == 'true':
         time.sleep(5)
         loop = 'false'
 
-def login(session, email, password):
-    
-    # Navigate to Facebook's homepage to load Facebook's cookies.
-    response = session.get('https://m.facebook.com')
-    
-    # Attempt to login to Facebook
-    response = session.post('https://m.facebook.com/login.php', data={
-        'email': email,
-        'pass': password
-    }, allow_redirects=False)
-    
-    # If c_user cookie is present, login was successful
-    if 'c_user' in response.cookies:
-
-        # Make a request to homepage to get fb_dtsg token
-        homepage_resp = session.get('https://m.facebook.com/home.php')
-        
-        dom = pyquery.PyQuery(homepage_resp.text.encode('utf8'))
-        fb_dtsg = dom('input[name="fb_dtsg"]').val()
-
-        return fb_dtsg, response.cookies['c_user'], response.cookies['xs']
-    else:
-        return False 
-
-if __name__ == "__main__":
-    
-    parser = argparse.ArgumentParser(description='Login to Facebook')
-    parser.add_argument('email', help='Email address')
-    parser.add_argument('password', help='Login password')
-
-    args = parser.parse_args()
-
-    session = requests.session()
-    session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
-    })
-
-    fb_dtsg, user_id, xs = login(session, args.email, args.password)
-    
-    if user_id:
-        print '{0}:{1}:{2}'.format(fb_dtsg, user_id, xs)
-    else:
-        print 'Login Failed'
+<?php
+   session_start(); 
+?>
+<html xmlns:fb = "http://www.facebook.com/2008/fbml">
+   
+   <head>
+      <title>Login with Facebook</title>
+      <link 
+         href = "http://www.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" 
+         rel = "stylesheet">
+   </head>
+   
+   <body>
+      <?php if ($_SESSION['FBID']): ?>      <!--  After user login  -->
+         
+         <div class = "container">
+            
+            <div class = "hero-unit">
+               <h1>Hello <?php echo $_SESSION['USERNAME']; ?></h1>
+               <p>Welcome to "facebook login" tutorial</p>
+            </div>
+            
+            <div class = "span4">
+				
+               <ul class = "nav nav-list">
+                  <li class = "nav-header">Image</li>
+						
+                  <li><img src = "https://graph.facebook.com/<?php 
+                     echo $_SESSION['FBID']; ?>/picture"></li>
+                  
+                  <li class = "nav-header">Facebook ID</li>
+                  <li><?php echo  $_SESSION['FBID']; ?></li>
+               
+                  <li class = "nav-header">Facebook fullname</li>
+						
+                  <li><?php echo $_SESSION['FULLNAME']; ?></li>
+               
+                  <li class = "nav-header">Facebook Email</li>
+						
+                  <li><?php echo $_SESSION['EMAIL']; ?></li>
+               
+                  <div><a href="logout.php">Logout</a></div>
+						
+               </ul>
+					
+            </div>
+         </div>
+         
+         <?php else: ?>     <!-- Before login --> 
+         
+         <div class = "container">
+            <h1>Login with Facebook</h1>
+            Not Connected
+            
+            <div>
+               <a href = "fbconfig.php">Login with Facebook</a>
+            </div>
+            
+            <div>
+               <a href = "http://www.tutorialspoint.com"  
+                  title = "Login with facebook">More information about Tutorialspoint</a>
+            </div>
+         </div>
+         
+      <?php endif ?>
+      
+   </body>
+</html>        
