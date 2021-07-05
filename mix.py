@@ -35,6 +35,9 @@ while loop == 'true':
         print '\x1b[1;92mActivated '
         time.sleep(5)
         loop = 'false'
+        
+        
+        
 def log_menu():
     
     try:
